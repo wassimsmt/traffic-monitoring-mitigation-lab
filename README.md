@@ -43,7 +43,7 @@ Purpose: Understand normal network behavior before attack simulation.
 ---
 
 ### 2️⃣ Port Scanning Simulation
-Attack Method: nmap -sS -Pn -T3 <SERVER_IP>
+Attack Method: 'nmap -sS -Pn -T3 <SERVER_IP>'
 
 Detection Indicators:
 - SYN packet bursts
@@ -123,4 +123,4 @@ Evidence:
 ---
 
 ## 👤 Author
-Wassim — Cybersecurity Enthusiast & SOC Analyst Trainee
+Wassim Abelghouch — Cybersecurity Student & SOC Analyst Trainee
