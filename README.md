@@ -83,6 +83,7 @@ Evidence:
 Evidence:
 - Fail2ban Configuration: `jail.d/sshd.local`
 - Ban Proof: `notes/fail2ban_ban_proof.txt`
+- Note: Raw PCAP files are not included in this repository for privacy reasons, but can be provided upon request.
 
 ---
 
