@@ -1,5 +1,24 @@
 # 📡 Traffic Monitoring & Mitigation Lab (Ubuntu Server)
 
+## 🧭 Lab Architecture
+
+```
+                           Internal Monitoring Lab
+
++---------------------+        Network Traffic        +----------------------+
+|     Kali Linux      |  -------------------------->  |    Ubuntu Server     |
+|      (Attacker)     |                               |   (Monitoring Node)  |
+|                     |                               |                      |
+| - Port Scanning     |                               | - SSH Service        |
+| - Test Traffic      |                               | - System Logs        |
+|                     |                               | - tcpdump Capture    |
+|                     |                               | - UFW / Fail2ban     |
++---------------------+                               +----------------------+
+```
+
+Flow:
+Traffic Generation → Log Analysis → Detection → Mitigation → Verification
+
 ## 🔎 Overview
 This project demonstrates a hands-on cybersecurity lab focused on network traffic monitoring, threat detection, and mitigation techniques in a controlled environment. The lab simulates real-world attack scenarios such as port scanning and SSH brute-force attempts, followed by defensive measures using firewall rules and intrusion prevention tools.
 
